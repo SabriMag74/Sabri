@@ -1,0 +1,10 @@
+  else
+  {
+  p3=head;
+  if(n>0)
+   {for(i=0;i<n;i++)
+      {if(p1->number!=p3->number)
+    p3=p3->next;
+    else
+    {printf("number repeate,please input again!\n");
+     goto repeat2;
